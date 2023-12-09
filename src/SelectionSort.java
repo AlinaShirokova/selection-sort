@@ -12,7 +12,7 @@ public class SelectionSort {
             nums[minPos] = nums[i];
             nums[i] = temp;
         }
-    } //an array of integers nums which is sorted in ascending order
+    } //an array sorted in ascending order
 
     public static String toString(int[] nums) {
         String s = "";
@@ -20,6 +20,6 @@ public class SelectionSort {
             s+=nums[i];
             s+=" ";
         }
-        return s;    // Вывод подзадачи с указанием эпика
+        return s;
     }
 }
